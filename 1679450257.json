@@ -1,0 +1,75 @@
+{
+  "title": "Premiere Changes",
+  "rules": [
+    {
+      "description": "MB5 to hand tool",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button5"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "h"
+            },
+            {
+              "repeat": true,
+              "pointing_button": "button1"
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "repeat": true,
+              "key_code": "v"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "com.adobe.PremierePro.22",
+                "com.adobe.PremierePro.23"
+              ],
+              "file_paths": [
+                "/Applications/Adobe Premiere Pro 2022/Adobe Premiere Pro 2022.app/Contents/MacOS/Adobe Premiere Pro 2022",
+                "/Applications/Adobe Premiere Pro 2023/Adobe Premiere Pro 2023.app/Contents/MacOS/Adobe Premiere Pro 2023"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "MB4 move playhead to cursor",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button4"
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "file_paths": [
+                "/Applications/Adobe Premiere Pro 2022/Adobe Premiere Pro 2022.app/Contents/MacOS/Adobe Premiere Pro 2022",
+                "/Applications/Adobe Premiere Pro 2023/Adobe Premiere Pro 2023.app/Contents/MacOS/Adobe Premiere Pro 2023"
+              ],
+              "bundle_identifiers": [
+                "com.adobe.PremierePro.22",
+                "com.adobe.PremierePro.23"
+              ]
+            }
+          ],
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "slash"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

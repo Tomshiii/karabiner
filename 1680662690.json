@@ -1,0 +1,83 @@
+{
+  "title": "AE Changes",
+  "rules": [
+    {
+      "description": "AE - MB5 to hand tool",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button5"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "h"
+            },
+            {
+              "repeat": true,
+              "pointing_button": "button1"
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "repeat": true,
+              "key_code": "v"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "com.adobe.AfterEffects"
+              ],
+              "file_paths": [
+                "/Applications/Adobe After Effects 2022/Adobe After Effects 2022.app/Contents/MacOS/After Effects",
+                "/Applications/Adobe After Effects 2023/Adobe After Effects 2023.app/Contents/MacOS/After Effects"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "AE - MB5 to hand tool then pen",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button4"
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "file_paths": [
+                "/Applications/Adobe After Effects 2022/Adobe After Effects 2022.app/Contents/MacOS/After Effects",
+                "/Applications/Adobe After Effects 2023/Adobe After Effects 2023.app/Contents/MacOS/After Effects"
+              ],
+              "bundle_identifiers": [
+                "com.adobe.AfterEffects"
+              ]
+            }
+          ],
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "h"
+            },
+            {
+              "repeat": true,
+              "pointing_button": "button1"
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "repeat": true,
+              "key_code": "g"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
