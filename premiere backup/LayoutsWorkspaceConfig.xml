@@ -32,7 +32,9 @@
 <key>FilePaths</key>
 <array>
 <array.type><ustring/></array.type>
+<ustring>/Users/tomsmith/Documents/Adobe/Premiere Pro/23.0/Profile-tomsmith/ArchivedLayouts/UserWorkspace_4.xml</ustring>
 <ustring>/Users/tomsmith/Documents/Adobe/Premiere Pro/23.0/Profile-tomsmith/ArchivedLayouts/UserWorkspace_2.xml</ustring>
+<ustring>/Users/tomsmith/Documents/Adobe/Premiere Pro/23.0/Profile-tomsmith/Layouts/UserWorkspace_4.xml</ustring>
 <ustring>/Users/tomsmith/Documents/Adobe/Premiere Pro/23.0/Profile-tomsmith/Layouts/UserWorkspace_3.xml</ustring>
 <ustring>/Users/tomsmith/Documents/Adobe/Premiere Pro/23.0/Profile-tomsmith/Layouts/UserWorkspace_1.xml</ustring>
 <ustring>/Users/tomsmith/Documents/Adobe/Premiere Pro/23.0/Profile-tomsmith/Layouts/UserWorkspace.xml</ustring>
@@ -46,9 +48,9 @@
 <key>CurrState</key>
 <array>
 <array.type><int type='signed' size='32'/></array.type>
-<int type='signed' size='32'>1040</int>
-<int type='signed' size='32'>25</int>
-<int type='signed' size='32'>4080</int>
+<int type='signed' size='32'>1053</int>
+<int type='signed' size='32'>27</int>
+<int type='signed' size='32'>4078</int>
 <int type='signed' size='32'>1415</int>
 </array>
 </prop.pair>
@@ -68,18 +70,22 @@
 <key>ModifiedTimes</key>
 <array>
 <array.type><string/></array.type>
-<string>20230608T010722</string>
+<string>20230907T231250</string>
+<string>20230906T053355</string>
+<string>20230918T231745</string>
 <string>20230529T043322</string>
 <string>20230305T214844</string>
 <string>20230226T231722</string>
-<string>20230608T011110</string>
+<string>20230919T023207</string>
 </array>
 </prop.pair>
 <prop.pair>
 <key>UserNames</key>
 <array>
 <array.type><ustring/></array.type>
+<ustring>2023_work</ustring>
 <ustring>tomWork</ustring>
+<ustring>2023_work</ustring>
 <ustring>$$$/Premiere/FrontEnd/CaptionsGraphicsSpace=Captions and Graphics#{comment}DVAGE-6442</ustring>
 <ustring>$$$/Premiere/FrontEnd/Editing=Editing</ustring>
 <ustring>$$$/Premiere/FrontEnd/Learning=Learning</ustring>
@@ -95,6 +101,8 @@
 <array>
 <array.type><int type='signed' size='32'/></array.type>
 <int type='signed' size='32'>0</int>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>1</int>
 <int type='signed' size='32'>1</int>
 <int type='signed' size='32'>1</int>
 <int type='signed' size='32'>1</int>
