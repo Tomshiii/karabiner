@@ -31,11 +31,13 @@
               "bundle_identifiers": [
                 "com.adobe.PremierePro.22",
                 "com.adobe.PremierePro.23",
+                "com.adobe.PremierePro.24",
                 "com.adobe.PremiereProBeta.24"
               ],
               "file_paths": [
                 "/Applications/Adobe Premiere Pro 2022/Adobe Premiere Pro 2022.app/Contents/MacOS/Adobe Premiere Pro 2022",
                 "/Applications/Adobe Premiere Pro 2023/Adobe Premiere Pro 2023.app/Contents/MacOS/Adobe Premiere Pro 2023",
+                "/Applications/Adobe Premiere Pro 2024/Adobe Premiere Pro 2024.app/Contents/MacOS/Adobe Premiere Pro 2024",
                 "/Applications/Adobe Premiere Pro (Beta)/Adobe Premiere Pro (Beta).app/Contents/MacOS/Adobe Premiere Pro (Beta)"
 
               ]
@@ -58,11 +60,13 @@
               "file_paths": [
                 "/Applications/Adobe Premiere Pro 2022/Adobe Premiere Pro 2022.app/Contents/MacOS/Adobe Premiere Pro 2022",
                 "/Applications/Adobe Premiere Pro 2023/Adobe Premiere Pro 2023.app/Contents/MacOS/Adobe Premiere Pro 2023",
+                "/Applications/Adobe Premiere Pro 2024/Adobe Premiere Pro 2024.app/Contents/MacOS/Adobe Premiere Pro 2024",
                 "/Applications/Adobe Premiere Pro (Beta)/Adobe Premiere Pro (Beta).app/Contents/MacOS/Adobe Premiere Pro (Beta)"
               ],
               "bundle_identifiers": [
                 "com.adobe.PremierePro.22",
                 "com.adobe.PremierePro.23",
+                "com.adobe.PremierePro.24",
                 "com.adobe.PremiereProBeta.24"
               ]
             }

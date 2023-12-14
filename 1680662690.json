@@ -33,7 +33,8 @@
               ],
               "file_paths": [
                 "/Applications/Adobe After Effects 2022/Adobe After Effects 2022.app/Contents/MacOS/After Effects",
-                "/Applications/Adobe After Effects 2023/Adobe After Effects 2023.app/Contents/MacOS/After Effects"
+                "/Applications/Adobe After Effects 2023/Adobe After Effects 2023.app/Contents/MacOS/After Effects",
+                "/Applications/Adobe After Effects 2024/Adobe After Effects 2024.app/Contents/MacOS/After Effects"
               ]
             }
           ]
@@ -53,7 +54,8 @@
               "type": "frontmost_application_if",
               "file_paths": [
                 "/Applications/Adobe After Effects 2022/Adobe After Effects 2022.app/Contents/MacOS/After Effects",
-                "/Applications/Adobe After Effects 2023/Adobe After Effects 2023.app/Contents/MacOS/After Effects"
+                "/Applications/Adobe After Effects 2023/Adobe After Effects 2023.app/Contents/MacOS/After Effects",
+                "/Applications/Adobe After Effects 2024/Adobe After Effects 2024.app/Contents/MacOS/After Effects"
               ],
               "bundle_identifiers": [
                 "com.adobe.AfterEffects"
